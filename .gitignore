@@ -1,3 +1,6 @@
 /out/
 Practice.iml
 ./idea/
+.idea/vcs.xml
+.idea/misc.xml
+.idea/modules.xml
