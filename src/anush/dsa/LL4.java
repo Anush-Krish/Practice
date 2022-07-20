@@ -36,7 +36,7 @@ public class LL4 {
         }
         System.out.println("NUll");
     }
-    public void reverseList(){
+     public void reverseList(){
         if(head==null || head.next==null){
             return;
         }

@@ -38,26 +38,23 @@ public class LL6 {
             return head;
         }
 
-        Node currNode = head;
-        Node nextNode = currNode.next;
-        boolean flag = false;
-        while ( nextNode != null ) {
+        Node currNode = head.next;
+        Node prevNode=head;
 
-            if(flag == true){
-                currNode = currNode.next;
-                nextNode = nextNode.next;
-                flag = false;
-            }
-            Node temp = currNode;
-            nextNode = currNode.next;
-            currNode.next = nextNode.next;
-            nextNode.next = temp;
-            currNode = currNode.next;
-            head = nextNode;
+        while ( currNode!= null ) {
 
-            /*Node temp = currNode.next.next;
-            currNode.next.next = currNode;
-            currNode.next = temp;*/
+
+
+            Node temp = currNode.next;
+            temp=currNode.next;
+            prevNode=currNode.next;
+            prevNode.next=temp;
+            currNode.next.next=currNode;
+            prevNode.next=prevNode;
+
+
+
+
 
         }
         return head;

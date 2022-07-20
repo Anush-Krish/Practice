@@ -37,6 +37,7 @@ public class LL5 {
 
     }
 
+
     public static void main(String[] args){
         LL5 list=new LL5();
         list.addLast(1);
@@ -44,8 +45,8 @@ public class LL5 {
         list.addLast(3);
         list.addLast(4);
         list.printList();
-        list.head=list.reverseList(list.head);
-        list.printList();
+
+
 
 
     }
