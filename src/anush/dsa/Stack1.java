@@ -50,7 +50,8 @@ public class Stack1 {
         st.push(4);
         st.push(3);
         st.push(2);
-        st.pop();
+        st.push(1);
+
 
         while(!st.isEmpty()){
             System.out.println(st.peek());
