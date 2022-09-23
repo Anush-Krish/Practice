@@ -3,19 +3,19 @@ package anush.dsa;
 //Swap adjacent elements.
 //class Node is used from LL4.
 public class LL6 {
-    private Node head;
+    private ListNode head;
 
     public void addLast(int data) {
-        Node newNode = new Node(data);
+        ListNode newListNode = new ListNode(data);
         if (head == null) {
-            head = newNode;
+            head = newListNode;
             return;
         }
-        Node currNode = head;
-        while (currNode.next != null) {
-            currNode = currNode.next;
+        ListNode currListNode = head;
+        while (currListNode.next != null) {
+            currListNode = currListNode.next;
         }
-        currNode.next = newNode;
+        currListNode.next = newListNode;
 
     }
 
@@ -24,33 +24,33 @@ public class LL6 {
         if (head == null) {
             System.out.println("list is empty.");
         }
-        Node currNode = head;
-        while (currNode != null) {
-            System.out.print(currNode.data + "-->");
-            currNode = currNode.next;
+        ListNode currListNode = head;
+        while (currListNode != null) {
+            System.out.print(currListNode.data + "-->");
+            currListNode = currListNode.next;
         }
         System.out.println("NULL");
     }
 
-    public Node swapAdjacent(Node head) {
+    public ListNode swapAdjacent(ListNode head) {
 
         if (head == null || head.next == null) {
             return head;
         }
 
-        Node currNode = head.next;
-        Node prevNode=head;
+        ListNode currListNode = head.next;
+        ListNode prevListNode =head;
 
-        while ( currNode!= null ) {
+        while ( currListNode != null ) {
 
 
 
-            Node temp = currNode.next;
-            temp=currNode.next;
-            prevNode=currNode.next;
-            prevNode.next=temp;
-            currNode.next.next=currNode;
-            prevNode.next=prevNode;
+            ListNode temp = currListNode.next;
+            temp= currListNode.next;
+            prevListNode = currListNode.next;
+            prevListNode.next=temp;
+            currListNode.next.next= currListNode;
+            prevListNode.next= prevListNode;
 
 
 

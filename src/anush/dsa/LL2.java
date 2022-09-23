@@ -122,15 +122,16 @@ class LL2{
 
     }
 
-    public static void main(String[] args){
-        LL2 list=new LL2();
-        list.addFirst("a");
-        list.addFirst("is");
-        list.printList();
 
-        list.addlast("list");
-        list.addFirst("This");
-        list.printList();
+        public static void main(String[] args) {
+            LL2 list = new LL2();
+            list.addFirst("a");
+            list.addFirst("is");
+            list.printList();
+
+            list.addlast("list");
+            list.addFirst("This");
+            list.printList();
 //        int a=list.printSize();
 //        list.deleteFirst();
 //
@@ -140,11 +141,11 @@ class LL2{
 //        list.printList();
 //
 //      System.out.println(list.printSize());
-      list.addMiddle(1,"the");
-      list.printList();
+            list.addMiddle(1, "the");
+            list.printList();
+        }
     }
 
 
 
-}
 

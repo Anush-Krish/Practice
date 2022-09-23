@@ -6,5 +6,11 @@ public class forLOop {
             System.out.println("Hello world");
         }
 
+
+        int[] arr={12,13,14,15,16};
+        for(int val:arr){
+            System.out.println(val);
+        }
+
     }
 }

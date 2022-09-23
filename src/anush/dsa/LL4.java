@@ -2,37 +2,37 @@ package anush.dsa;
 //iterative reverse linked list.
 
 
-class Node {
+class ListNode {
 
     int data;
-    Node next;
-    Node(int data){
+    ListNode next;
+    ListNode(int data){
         this.data=data;
         this.next=null;
     }
 
 }
 public class LL4 {
-    Node head;
+    ListNode head;
 
     public void addFirst(int data){
-        Node newNode=new Node(data);
+        ListNode newListNode =new ListNode(data);
         if(head==null){
-            head=newNode;
+            head= newListNode;
             return;
         }
-        newNode.next=head;
-        head=newNode;
+        newListNode.next=head;
+        head= newListNode;
     }
     public void printList(){
         if(head==null){
             System.out.println("List is empty");
         }
-        Node currNode=head;
-        while(currNode!=null){
+        ListNode currListNode =head;
+        while(currListNode !=null){
 
-            System.out.print(currNode.data+"-->");
-            currNode=currNode.next;
+            System.out.print(currListNode.data+"-->");
+            currListNode = currListNode.next;
         }
         System.out.println("NUll");
     }
@@ -40,19 +40,19 @@ public class LL4 {
         if(head==null || head.next==null){
             return;
         }
-        Node currNode=head.next;
-        Node prevNode=head;
+        ListNode currListNode =head.next;
+        ListNode prevListNode =head;
 
-        while(currNode!=null){
-            Node nextNode=currNode.next;
-            currNode.next=prevNode;
-            prevNode=currNode;
-            currNode=nextNode;
+        while(currListNode !=null){
+            ListNode nextListNode = currListNode.next;
+            currListNode.next= prevListNode;
+            prevListNode = currListNode;
+            currListNode = nextListNode;
 
 
         }
         head.next=null;
-        head=prevNode;
+        head= prevListNode;
 
 
 

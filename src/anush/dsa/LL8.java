@@ -2,30 +2,30 @@ package anush.dsa;
 
 //palindrome linked list.
 public class LL8 {
-    Node head;
+    ListNode head;
 
     public void addLast(int data) {
-        Node newNode = new Node(data);
+        ListNode newListNode = new ListNode(data);
 
         if (head == null) {
-            head = newNode;
+            head = newListNode;
             return;
         }
-        Node currNode = head;
-        while (currNode.next != null) {
-            currNode = currNode.next;
+        ListNode currListNode = head;
+        while (currListNode.next != null) {
+            currListNode = currListNode.next;
         }
-        currNode.next = newNode;
+        currListNode.next = newListNode;
     }
 
     public void printList() {
         if (head == null) {
             System.out.println("List is Empty.");
         }
-        Node currNode = head;
-        while (currNode != null) {
-            System.out.print(currNode.data + "-->");
-            currNode = currNode.next;
+        ListNode currListNode = head;
+        while (currListNode != null) {
+            System.out.print(currListNode.data + "-->");
+            currListNode = currListNode.next;
         }
         System.out.println("NULL");
     }
@@ -35,10 +35,10 @@ public class LL8 {
         if (head == null) {
             return size;
         }
-        Node currNode = head;
-        while (currNode != null) {
+        ListNode currListNode = head;
+        while (currListNode != null) {
             size++;
-            currNode = currNode.next;
+            currListNode = currListNode.next;
 
         }
         return size;
@@ -46,9 +46,9 @@ public class LL8 {
 
 
 
-    public Node findMiddle(Node head) {
-        Node hare = head;
-        Node turtle = head;
+    public ListNode findMiddle(ListNode head) {
+        ListNode hare = head;
+        ListNode turtle = head;
 
         while (hare.next != null && hare.next.next != null) {
             hare = hare.next.next;
@@ -57,28 +57,28 @@ public class LL8 {
         return turtle;
     }
 
-    public Node reverse(Node head) {
+    public ListNode reverse(ListNode head) {
 
-        Node prevNode = null;
-        Node currNode = head;
-        while (currNode != null) {
-            Node nextNode = currNode.next;
-            currNode.next = prevNode;
-            prevNode = currNode;
-            currNode = nextNode;
+        ListNode prevListNode = null;
+        ListNode currListNode = head;
+        while (currListNode != null) {
+            ListNode nextListNode = currListNode.next;
+            currListNode.next = prevListNode;
+            prevListNode = currListNode;
+            currListNode = nextListNode;
 
         }
 
-        return prevNode;
+        return prevListNode;
     }
 
-    public boolean isPalindrome(Node head) {
+    public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
             return true;
         }
-        Node middle = findMiddle(head);
-        Node secondStart = reverse(middle.next);
-        Node firstStart = head;
+        ListNode middle = findMiddle(head);
+        ListNode secondStart = reverse(middle.next);
+        ListNode firstStart = head;
         while (secondStart != null) {
             if (firstStart.data != secondStart.data) {
                 return false;

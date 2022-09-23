@@ -2,12 +2,12 @@ package anush.dsa;
 //recursive reversed list. class node is being used by LL4.
 
 public class LL5 {
-    Node head;
-    public Node reverseList(Node head){
+    ListNode head;
+    public ListNode reverseList(ListNode head){
         if(head==null||head.next==null){
             return head;
         }
-        Node newHead=reverseList(head.next);
+        ListNode newHead=reverseList(head.next);
         head.next.next=head;
         head.next=null;
         return newHead;
@@ -16,24 +16,24 @@ public class LL5 {
         if(head==null){
             System.out.println("list is empty.");
         }
-        Node currNode=head;
-        while(currNode!=null){
-            System.out.print(currNode.data+"-->");
-            currNode=currNode.next;
+        ListNode currListNode =head;
+        while(currListNode !=null){
+            System.out.print(currListNode.data+"-->");
+            currListNode = currListNode.next;
         }
         System.out.println("NULL");
     }
     public void addLast(int data){
-        Node newNode=new Node(data);
+        ListNode newListNode =new ListNode(data);
         if(head==null){
-            head=newNode;
+            head= newListNode;
             return;
         }
-        Node currNode=head;
-        while(currNode.next!=null){
-            currNode=currNode.next;
+        ListNode currListNode =head;
+        while(currListNode.next!=null){
+            currListNode = currListNode.next;
         }
-        currNode.next=newNode;
+        currListNode.next= newListNode;
 
     }
 

@@ -2,19 +2,19 @@ package anush.dsa;
 //remove nth node from last.
 
 public class LL7 {
-    private Node head;
+    private ListNode head;
 
     public void addLast(int data) {
-        Node newNode = new Node(data);
+        ListNode newListNode = new ListNode(data);
         if (head == null) {
-            head = newNode;
+            head = newListNode;
             return;
         }
-        Node currNode = head;
-        while (currNode.next != null) {
-            currNode = currNode.next;
+        ListNode currListNode = head;
+        while (currListNode.next != null) {
+            currListNode = currListNode.next;
         }
-        currNode.next = newNode;
+        currListNode.next = newListNode;
 
     }
 
@@ -23,10 +23,10 @@ public class LL7 {
         if (head == null) {
             System.out.println("list is empty.");
         }
-        Node currNode = head;
-        while (currNode != null) {
-            System.out.print(currNode.data + "-->");
-            currNode = currNode.next;
+        ListNode currListNode = head;
+        while (currListNode != null) {
+            System.out.print(currListNode.data + "-->");
+            currListNode = currListNode.next;
         }
         System.out.println("NULL");
     }
@@ -36,10 +36,10 @@ public class LL7 {
              return size;
         }
 
-        Node currNode=head;
-        while(currNode!=null){
+        ListNode currListNode =head;
+        while(currListNode !=null){
             size++;
-            currNode=currNode.next;
+            currListNode = currListNode.next;
 
 
         }
@@ -47,20 +47,20 @@ public class LL7 {
     }
 
 
-    public Node removeNth(Node head,int n){
+    public ListNode removeNth(ListNode head, int n){
         if (head.next==null){
             return null;
         }
-        Node currNode=head;
+        ListNode currListNode =head;
         int i=1;
         if(i==sizeList()){
             return head.next;
         }
         while(i<sizeList()-n){
-            currNode=currNode.next;
+            currListNode = currListNode.next;
             i++;
         }
-        currNode.next=currNode.next.next;
+        currListNode.next= currListNode.next.next;
 
         return head;
 
