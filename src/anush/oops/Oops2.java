@@ -5,8 +5,8 @@ class Student{
     String name;
     int roll;
     public void PrintInfo(){
-        System.out.println(this.name);// also without this keyword
-        System.out.println(this.roll);//also without this keyword
+        System.out.println(this.name);// also without "this" keyword
+        System.out.println(this.roll);//also without "this" keyword
     }
     Student()
     {
