@@ -22,7 +22,7 @@ public class Dpp2_2dArray {
         }
         for(int i=0;i<3;i++){
             for(int j=0;j<3;j++){
-                if(){
+                if(i==j){
                     System.out.println(arr[i][j]);
                 }
             }
