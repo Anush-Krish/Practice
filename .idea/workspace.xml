@@ -1,201 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cae46c2-47b6-45ca-b1f3-66bd04d3164b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="8cae46c2-47b6-45ca-b1f3-66bd04d3164b" name="Changes" comment="2d array zigzag dpp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/BackTracingPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/EvenOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/first.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/greaterNUm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/hello_bonjour_namste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/multiple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/output.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/string1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/stringbuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/stringbuilder2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Basics/temp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/BitMan/Bits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/BitMan/Bits2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/BitMan/Bits3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/BitMan/Bits4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/Exception8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Exception/NegativeRadiusException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Functions/func1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Functions/func2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Functions/func3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Generics/G1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Generics/MyGeneric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/HackerRank/HackerRank1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/HackerRank/HackerRank2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Loops/DoWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Loops/N_Sum_LOop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Loops/WhileLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Loops/forLOop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern_adv10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern_adv11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern_adv12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern_adv13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern_adv14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Patterns/pattern_adv15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/Recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/Recursion1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/Recursion3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/RecursionFactorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/RecursionFibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/RecursionSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/RecursionTowerOfHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/RecursionXpowN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/Temp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Recursion/Temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Sorting/SortBubble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Sorting/SortInsertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Sorting/SortSelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thrd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thrd1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thrd2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thrd_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thrd_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thread4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thread5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thread_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thread_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/Thread/Thred.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/anush.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/array/TwoDArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/array/TwoDArray2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/array/array1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/array/array2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/array/array3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/ArrayList1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree1$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree10$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree10$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree2$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree3$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree3$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree4$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree4$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree5$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree5$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree6$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree6$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree7$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree7$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree8$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree8$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree9$BinaryTree$TreeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree9$BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree9$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/BinaryTree9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Bst1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Bst1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Bst2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Bst2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Bst3$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Bst3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/HashMap1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/HashSet1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/LL9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue1$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue2$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue3$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue3$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Queue5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Stack1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Stack1$Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Stack1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Stack2$Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Stack2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Stack3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsa/Stack4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsaDPP/Dpp2_2dArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsaDPP/Dpp3_2dArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsaDPP/Dpp_2dArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsaDPP/Stocks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsaDPP/dpp1_array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/dsaDPP/dpp2_array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/leetcode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/leetcode/PalindromeLL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/leetcode/RomanToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Oops1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Oops2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Oops3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Oops4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Oops5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Oops6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Pen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Stu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Studentt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/oops/Vehic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/out/production/anush/anush/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/out/production/anush/anush/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/out/production/anush/anush/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/out/production/anush/anush/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/out/production/anush/anush/anush.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/temp/PerCalc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/anush/temp/temp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anush/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anush/out/production/anush/anush/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,17 +30,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/anushkrishna/IdeaProjects/Practice"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anushkrishna/IdeaProjects/Practice&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Practice" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="PROGRAM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" singleton="false">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
