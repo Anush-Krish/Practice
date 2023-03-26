@@ -44,6 +44,7 @@ public class LL5 {
         list.addLast(2);
         list.addLast(3);
         list.addLast(4);
+        list.reverseList(list.head);
         list.printList();
 
 
