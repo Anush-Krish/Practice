@@ -33,8 +33,33 @@ public class Dpp_ll1 {
 
         }
         public Node reverseList(){
-            
+        Node currNode=head.next;
+        Node prevNode=head;
+        if(currNode.next==null){
+            return head;
         }
+        Node nextNode=currNode.next;
+        currNode.next=prevNode;
+        prevNode=currNode;
+        currNode=nextNode;
+        reverseList();
+        head.next=null;
+        head=prevNode;
+        return head;
+        }
+    }
+    public static void main(String[] args) {
+        Dpp_LL ll = new Dpp_LL();
+        ll.addFirst("List");
+        ll.addFirst("a");
+        ll.addFirst("is");
+        ll.addFirst("This");
+        ll.printList();
+        ll.reverseList();
+
+
+
+        ll.printList();
     }
 
 }
