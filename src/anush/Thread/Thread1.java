@@ -18,8 +18,8 @@ class Thread_2 extends Thread{
     public void run(){
         int i=0;
         while(i<200){
-        System.out.println("2nd thread");
-        System.out.println("run 2nd thread");
+            System.out.println("2nd thread");
+            System.out.println("run 2nd thread");
         i++;
     }
     }

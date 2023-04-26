@@ -5,7 +5,8 @@ class Thrd extends Thread{
         super(name);
 
     }
-    public void run(){
+    public void run()
+    {
         System.out.println("This is a Thread.");
     }
 }
