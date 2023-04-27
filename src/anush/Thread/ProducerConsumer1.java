@@ -32,7 +32,7 @@ public class ProducerConsumer1 {
                        System.out.println("Consumer consume value:"+val);
                        notify();
                        Thread.sleep(1000);
-                   
+
                }
            }
        }
