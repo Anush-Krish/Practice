@@ -15,7 +15,8 @@ public class ProducerConsumer1 {
                    while(list.size()==capacity)
                        wait();
                        System.out.println("Producer produce value:"+value);
-                       list.add(value++);
+                       list.add(value);
+                       value++;
                        notify();
                        Thread.sleep(1000);
 

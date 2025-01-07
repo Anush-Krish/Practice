@@ -24,18 +24,17 @@ class Thrd_1 extends Thread{
 }
 public class Thread5 {
     public static void main(String[] args) {
-        Thrd_1 t1=new Thrd_1();
-        Thrd_2 t2=new Thrd_2();
+        Thrd_1 t1 = new Thrd_1();
+        Thrd_2 t2 = new Thrd_2();
         t1.start();
         //join is for when t1 stops after that t2 will start.
-        try{
+        try {
             t1.join();
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             System.out.println();
+
 
         }
         t2.start();
-
     }
 }
