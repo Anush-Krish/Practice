@@ -60,6 +60,29 @@ public class LinkedListOne {
         }
     }
 
+    private void addBeforeElement(int currElement, int newData) {
+        if (null == head) { //case to handle if list is empty
+            addFirst(newData);
+        }
+        Node prev = head;
+        Node curr = head.next;
+        Node newNode = new Node(newData);
+
+        while (null != curr) {
+            if (prev.data == currElement) {   // for handling case of, if insert position is head
+                head = newNode;
+                newNode.next = prev;
+            }
+            if (curr.data == currElement) {
+                prev.next = newNode;
+                newNode.next = curr;
+            }
+
+            prev = prev.next;
+            curr = curr.next;
+        }
+    }
+
     private void printList() {
         if (null == head) {
             System.out.println("Empty list");
@@ -80,8 +103,10 @@ public class LinkedListOne {
         linkedList.addFirst(30);
         linkedList.addFirst(40);
         linkedList.addLast(50);
+
         linkedList.printList();
-        linkedList.findAndDeleteElement(50);
+        // linkedList.findAndDeleteElement(50);
+        linkedList.addBeforeElement(40, 15);
         linkedList.printList();
 
     }
