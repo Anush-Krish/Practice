@@ -27,6 +27,7 @@ public class Stack {
     private void peek() {
         if (top == -1) {
             System.out.println("Stack is empty.");
+            return;
         }
         System.out.println("peek-> " + arr[top]);
     }
@@ -37,7 +38,7 @@ public class Stack {
         } else {
             int i = top;
             System.out.print("Stack-> ");
-            while (i >= 0) {
+            while (i > -1) {
                 System.out.print(arr[i] + " ");
                 i--;
             }
