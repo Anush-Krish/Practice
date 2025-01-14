@@ -95,6 +95,19 @@ public class LinkedListOne {
         }
         System.out.println("null");
     }
+    public Node middleNode(Node head) {
+        Node slow = head;
+        Node fast = head;
+        while(fast.next!=null ){
+            if(fast.next.next == null){
+                return slow.next;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
 
     public static void main(String[] args) {
         LinkedListOne linkedList = new LinkedListOne();
@@ -103,11 +116,13 @@ public class LinkedListOne {
         linkedList.addFirst(30);
         linkedList.addFirst(40);
         linkedList.addLast(50);
-
         linkedList.printList();
+        System.out.println("Middle node->"+linkedList.middleNode(linkedList.head).data);
         // linkedList.findAndDeleteElement(50);
         linkedList.addBeforeElement(40, 15);
         linkedList.printList();
+        System.out.println("Middle node->"+linkedList.middleNode(linkedList.head).data);
+
 
     }
 }
