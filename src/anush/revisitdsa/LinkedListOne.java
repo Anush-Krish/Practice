@@ -100,13 +100,33 @@ public class LinkedListOne {
         Node fast = head;
         while(fast.next!=null ){
             if(fast.next.next == null){
-                return slow.next;
+                slow = slow.next;
+                break;
             }
             slow = slow.next;
             fast = fast.next.next;
         }
-
         return slow;
+    }
+
+    public Node rotateList(Node head,int k){
+//        Node curr =head.next;
+//        Node prev = head;
+        while(k != 0 ){
+            Node curr =head.next;
+            Node prev = head;
+            while (curr.next != null){
+
+                curr =curr.next;
+                prev = prev.next;
+            }
+
+            curr.next = head;
+            head= curr;
+            prev.next =null;
+            k--;
+        }
+        return head;
     }
 
     public static void main(String[] args) {
@@ -121,7 +141,9 @@ public class LinkedListOne {
         // linkedList.findAndDeleteElement(50);
         linkedList.addBeforeElement(40, 15);
         linkedList.printList();
-        System.out.println("Middle node->"+linkedList.middleNode(linkedList.head).data);
+       // linkedList.rotateList(linkedList.head, 2);
+        linkedList.printList();
+        System.out.println("head node->"+linkedList.rotateList(linkedList.head,2).data);
 
 
     }
