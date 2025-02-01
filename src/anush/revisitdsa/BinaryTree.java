@@ -1,5 +1,8 @@
 package anush.revisitdsa;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinaryTree {
 
     private class Node {
@@ -54,6 +57,26 @@ public class BinaryTree {
         inorderTraversal(root.right);
     }
 
+    public void levelOrderTraversal(Node root) {
+        //add root then in while check for empty,
+        //proceed to add left then right then terminate the loop,
+        //continue to remove the root(current element)
+
+        Queue<Node> queue = new LinkedList<>();
+
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            Node curr = queue.remove();
+            if (null == curr) {
+                return;
+            }
+            System.out.print(curr.data + "  ");
+            queue.add(curr.left);
+            queue.add(curr.right);
+        }
+    }
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
         BinaryTree bt = new BinaryTree();
@@ -63,6 +86,8 @@ public class BinaryTree {
         bt.postOrderTraversal(root);
         System.out.println(" ");
         bt.inorderTraversal(root);
+        System.out.println(" ");
+        bt.levelOrderTraversal(root);
     }
 
 
