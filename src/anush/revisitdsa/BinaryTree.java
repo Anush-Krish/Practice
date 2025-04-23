@@ -77,6 +77,28 @@ public class BinaryTree {
         }
     }
 
+//    public Boolean isPerfectTree(Node root){
+//        Queue<Node> queue = new LinkedList<>();
+//
+//        queue.add(root);
+//        int c=1;
+//        while (!queue.isEmpty()){
+//            Node curr = queue.peek();
+//            if(null != curr.left){
+//                queue.add(curr.left);
+//                c++;
+//            }
+//            if(null != curr.right){
+//                queue.add(curr.right);
+//                c++;
+//            }
+//        }
+//        if(c == Math.log(2)){
+//
+//        }
+//
+//    }
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
         BinaryTree bt = new BinaryTree();
@@ -88,6 +110,8 @@ public class BinaryTree {
         bt.inorderTraversal(root);
         System.out.println(" ");
         bt.levelOrderTraversal(root);
+        int nodesCount = arr.length;
+
     }
 
 
